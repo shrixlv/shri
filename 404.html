@@ -6,8 +6,8 @@
     <script type="text/javascript">
       // Get the current URL path
       var path = window.location.pathname;
-      // Redirect to index.html with the path as a query parameter
-      window.location.replace('/index.html?redirect=' + path);
+      // Correct for repo subdirectory
+      window.location.replace('/shri/index.html?redirect=' + path);
     </script>
   </head>
   <body>
